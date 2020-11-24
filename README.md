@@ -41,3 +41,14 @@ light blinkstick:
     index: 7
     name: Blinkstick 7
 ```
+
+## Config variables
+### serial
+_\[REQUIRED] string_
+The serial number of your BlinkStick device
+### index
+_\[REQUIRED] integer_
+The index of this LED
+### name
+_\[Optional] string, default 'Blinkstick Square'_
+The friendly name of this LED
