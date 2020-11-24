@@ -8,21 +8,28 @@ Original module copied from https://github.com/home-assistant/core/tree/dev/home
 ```yaml
 # Example configuration.yaml entry for an 8-LED BlinkStick Square
 light:
-  - platform: blinksticksquare
-    - serial: BS000795-1.1
-      index: 0
-    - serial: BS000795-1.1
-      index: 1
-    - serial: BS000795-1.1
-      index: 2
-    - serial: BS000795-1.1
-      index: 3
-    - serial: BS000795-1.1
-      index: 4
-    - serial: BS000795-1.1
-      index: 5
-    - serial: BS000795-1.1
-      index: 6
-    - serial: BS000795-1.1
-      index: 7
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 0
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 1
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 2
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 3
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 4
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 5
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 6
+  - serial: BS000795-1.1
+    platform: blinksticksquare
+    index: 7
 ```
