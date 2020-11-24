@@ -1,0 +1,7 @@
+{
+  "domain": "blinksticksquare",
+  "name": "BlinkStick Square",
+  "documentation": "https://github.com/oolivero45/homeassistant-blinkstick-square",
+  "requirements": ["blinkstick==1.1.8"],
+  "codeowners": ["@oolivero45"]
+}

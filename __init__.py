@@ -1,0 +1,1 @@
+"""The blinksticksquare component."""
